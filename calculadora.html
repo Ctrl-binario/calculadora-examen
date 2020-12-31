@@ -1,0 +1,52 @@
+
+<html>
+
+<head>
+	<title>sin título</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+    <script type="text/javascript"  src="calculo.js"> </script>
+</head>
+
+<body>
+<form name="calculator" method="post" action="">
+
+   <div id="cuerpo" > 
+      <div id="barra" >
+	     <input type="text" name="win" value="" tabindex="1" autofocus border="10px">
+      
+      </div>
+      <div id="tabla_numerica" > 
+      
+      <br>
+         <input type="button" value="1" style="width:50px;   height:50px;" onclick="calc('1')"/>
+         <input type="button" value="2" style="width:50px;   height:50px;" onclick="calc('2')"/>
+         <input type="button" value="3" style="width:50px;   height:50px;" onclick="calc('3')"/>
+         <input type="button"  value="+" style="width:50px;  height:50px;" onClick="calc('+')"/>  
+          <input type="reset"  value="C" style="width:50px;  height:50px;"/>     
+         <br>
+         <input type="button" value="4" style="width:50px;   height:50px;" onclick="calc('4')"/>
+         <input type="button" value="5" style="width:50px;   height:50px;" onclick="calc('5')"/>
+         <input type="button" value="6" style="width:50px;   height:50px;" onclick="calc('6')"/>
+         <input type="button"  value="-" style="width:50px;   height:50px;" onClick="calc('-')"/>
+         <input type="button"  value="Cos" style="width:50px;   height:50px;" onClick="cientifica('coseno')"/>  
+         <br>
+         <input type="button" value="7" style="width:50px;   height:50px;" onclick="calc('7')"/>
+         <input type="button" value="8" style="width:50px;   height:50px;" onclick="calc('8')"/>
+         <input type="button" value="9" style="width:50px;   height:50px;" onclick="calc('9')"/>
+         <input type="button"  value="*" style="width:50px;   height:50px;" onClick="calc('*')"/>
+         <input type="button"  value="Raiz" style="width:50px;   height:50px;" onClick="cientifica('raiz')"/>  
+         <br>
+         <input type="button" value="0" style="width:50px;   height:50px;" onclick="calc('0')"/>
+         <input type="button" value="." style="width:50px;   height:50px;" onClick="calc('.')"/>
+         <input type="button" value="=" style="width:50px;   height:50px;" onClick="calc('=')"/>
+         <input type="button"  value="-" style="width:50px;   height:50px;" onClick="calc('/')"/>
+         <input type="button"  value="X2" style="width:50px;   height:50px;" onClick="cientifica('X2')"/>  
+         
+        
+      </div>
+   </div>
+</form>
+</body>
+
+</html>

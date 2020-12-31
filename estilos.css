@@ -1,0 +1,66 @@
+body{
+background-color:#3f3715;
+background-image:url(https://i.imgur.com/1e6RYo2.jpg)
+}
+
+#cuerpo
+{
+    margin:5px auto;
+	padding:5px;
+    width:330px;
+	height:330px;
+	box-shadow:0px 2px 30px black;
+	background:#f3f3f3;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+
+#barra
+{
+    margin:1px auto;
+	padding:5px;
+    width:320px;
+	height:30px;
+	background:#CCC;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+
+input[type="text"]:not([size]) { 
+   width:322px;
+   height:31px; 
+   -moz-border-radius:15px;
+   -webkit-border-radius:15px;
+}
+
+#tabla_numerica
+{
+    margin:5px auto;
+	padding:5px;
+    width:320px;
+	height:270px;
+	background:#CCC;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}	
+
+input[type="button"]:not([size]) { 
+   
+   margin:5px 5px auto;
+   font-size:20px;
+   font-family:"Comic Sans MS", cursive;
+   -moz-border-radius:7px;
+   -webkit-border-radius:7px;
+}
+
+
+
+input[type="reset"]:not([size]) { 
+   width:50px;
+   height:50px;
+   margin:5px 5px auto;
+   font-size:20px;
+   font-family:"Comic Sans MS", cursive;
+   -moz-border-radius:7px;
+   -webkit-border-radius:7px;
+}
